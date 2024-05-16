@@ -1,0 +1,91 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Victor Juan Ramos Mamani</title>
+
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <a href="#"><img src="tuyo.jpeg" alt="Foto de perfil"></a>
+                    <a href="#"><span>Victor</span> Ramos</a>
+                </div>
+                <ul>
+                    <li><a href="#home" class="active">Inicio</a></li>
+                    <li><a href="#compañeros">Compañeros</a></li>
+                    <li><a href="#docentes">Docentes</a></li>
+                    <li><a href="#">Frases</a></li>
+                    <li><a href="#">Contactos</a></li>
+                </ul>
+                <button class="hamburger">
+                    <div class="bar"></div>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <section class="home" id = "home">
+        <div class="container">
+            <div class="home-info">
+                <div class="left">
+                    <span>Computer Science</span> <span class="probar"></span>
+                    
+                    <h1>Victor Ramos</h1>
+                    <p>Hola, Soy un apasionado estudiante de "Ciencias de la Computacion" de la <a href="https://ucsp.edu.pe/" target="_blank">UCSP</a>, actualmente cursando el tercer semestre.
+                        Me fascina sumergirme en el mundo de la tecnología y explorar las diversas áreas de esta emocionante disciplina. 
+                        Hasta ahora, he adquirido conocimientos sólidos en programación, estructuras de datos, 
+                        algoritmos y fundamentos de sistemas operativos. Estoy emocionado por continuar mi formación y desarrollar habilidades que me permitan contribuir al avance de la informática y crear soluciones innovadoras.</p>
+                    <div class="btn">
+                        <button>Saludar</button>
+                        <button>Frases</button>
+                    </div>
+                    <div class="social">
+                        <div class="social-links">
+                            <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+                            <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+                            <a href="https://www.linkedin.com/in/juan-victor-ramos-554551309?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
+                            <a href="https://github.com/" target="_blank"><ion-icon name="logo-github"></ion-icon></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="profile">
+                        <img src="tuyo.jpeg" alt="Foto">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <hr>
+
+    <section class="universidad">
+        <div class="contenedor">
+            <div class="universidad-info">
+                <div class="compañeros-izquierda">
+                    <h2 id="compañeros">Compañeros</h2>
+                    <p>Conoce a los estudiantes que forman parte de nuestra comunidad universitaria.</p>
+                    <a href="javascript:void(0)" class="btns" onclick="mostrarCompañeros()">Ver Compañeros</a>
+                    <div id="compañeros-lista"></div>
+                </div>
+                <div class="profesores-derecha">
+                    <h2 id ="docentes">Docentes</h2>
+                    <p>Conoce a los profesores que imparten las clases en nuestra universidad.</p>
+                    <a href="javascript:void(0)" class="btns" onclick="mostrarDocentes()">Ver Docentes</a>
+                    <div id="docentes-lista" ></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
